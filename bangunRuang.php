@@ -6,7 +6,7 @@ abstract class bangunRuang
 
     public function tampilLuas()
     {
-        echo "Hasil :".$this->hitungLuas()."<br/>";
+        return "Hasil :".$this->hitungLuas()."<br/>";
     }
 }
 
@@ -45,4 +45,4 @@ $persegi->hitungLuas();
 $persegi->tampilLuas();
 
 $lingkaran->hitungLuas();
-$lingkaran->tampilLuas();
+echo $lingkaran->tampilLuas();
